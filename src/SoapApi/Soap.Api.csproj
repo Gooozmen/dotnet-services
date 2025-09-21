@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    <AssemblyName>Soap.Api</AssemblyName>
+    <OutputPath>..\..\Output\</OutputPath>
+    <RestorePackagesPath>..\..\Dependencies\Packages\</RestorePackagesPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CoreWCF.Http" />
+    <PackageReference Include="CoreWCF.Primitives" />
+    <PackageReference Include="CoreWCF.ConfigurationManager"/>
+
+  </ItemGroup>
+
+</Project>
